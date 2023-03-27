@@ -1,0 +1,16 @@
+
+
+.content-card{
+  width: 100%;
+  height: 50vh;
+  background-color: transparent;
+}
+
+.contact-capture{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(255, 255, 255);
+  height: 100%;
+}

@@ -1,23 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
+import image from './assets/home.png'
+import { ContactCapture } from './components/ContactCapture';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className='content-page'>
+        <div className='product-content'>
+          <img src={image} alt="product" className='product'/>
+        </div> 
+        <div className='contact-content'>
+          <ContactCapture/>
+        </div>
+
+      </div>
     </div>
   );
 }
