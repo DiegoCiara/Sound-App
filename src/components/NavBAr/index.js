@@ -9,14 +9,16 @@ import "./styles.css"
 export function NavBar() {
     return(
         <div className="nav-content">
-            <img src={image} className="social-icon"/>
+            <div className="content-brand">
+                <img src={image} className="brand"/>
+            </div>
             <div >
                 <div className="social-icons">
-                    <div >
+                    <div className="link">
                         <img src={linkedin} className="social-icon" />
                         <a href="https://www.linkedin.com/in/diego-antonio-055602249/">LinkedIn</a>
                     </div>
-                    <div>
+                    <div className="link">
                         <img src={github} className="social-icon" />
                         <a href="https://github.com/DiegoCiara">GitHub</a>
                     </div>

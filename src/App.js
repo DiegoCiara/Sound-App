@@ -1,8 +1,7 @@
 import './styles/App.css';
 import image from './assets/home.png'
 import { ContactCapture } from './components/ContactCapture';
-import { Menu } from './components/NavBAr/menu';
-import { CardItem, NavBar } from './components/NavBAr';
+import {  NavBar } from './components/NavBAr';
 
 
 function App() {
