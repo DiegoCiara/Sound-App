@@ -1,11 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import './styles/App.css';
 import image from './assets/home.png'
 import { ContactCapture } from './components/ContactCapture';
+import { Menu } from './components/NavBAr/menu';
+import { CardItem, NavBar } from './components/NavBAr';
+
 
 function App() {
   return (
     <div className="App">
+      <div className='Heather'>
+        <NavBar/>
+      </div>
       <div className='content-page'>
         <div className='product-content'>
           <img src={image} alt="product" className='product'/>
