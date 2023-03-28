@@ -81,7 +81,7 @@ input::-webkit-inner-spin-button {
   }
   .product-content{
     width: 100vw;
-    height: 40vh;
+    height: 35vh;
   }
   .product{
     margin-top: 15%;
@@ -91,14 +91,15 @@ input::-webkit-inner-spin-button {
   .contact-content{
     display: flex;
     width: 100vw;
-    height: 60vh;
     align-items: center;
-    background-color: aliceblue;
-    margin-bottom: 30%;
+    /* background-color: rgb(11, 68, 119); */
+    min-height: 50vh;
+    height: 50vh;
+
   }
   .send{
     min-height: 40px;
-
+    margin-top: 2%;
   }
   input{
     width: 90%;
