@@ -17,25 +17,26 @@ export  function ContactCapture() {
               Nome:
             </label>
           </div> 
-          <input type='text' placeholder="insira seu nome" name="name" autoComplete={false} autoCorrect={false} style={{textTransform: 'capitalize'}}/>
+          <input type='text'  name="name" autoComplete={false} autoCorrect={false} style={{textTransform: 'capitalize'}}/>
         </div>
         <div className="input-container">
           <div className='title'>
             E-mail:
           </div> 
-          <input type='email' style={{textTransform: 'lowercase'}}  placeholder='Insira seu e-mail'/>
+          <input type='email' style={{textTransform: 'lowercase'}}  />
         </div>
         <div className="input-container">
           <div className='title'>
             Telefone:
           </div> 
-          <input type='number' placeholder='insira seu número de telefone.'/>
+          <input type='number' />
         </div>
         <div style={{
           display: 'flex', 
           flexDirection:'row', 
           width: '100%',
           height: '10%',
+          
           }}>
           <input type='checkbox' className="checkbox"/>
           <div className="title mini">Concordo com a &nbsp; <a href="https://diegociara.vercel.app" className="politic-and-privacity">Politica e Privacidade</a></div>
