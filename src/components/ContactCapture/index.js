@@ -17,19 +17,19 @@ export  function ContactCapture() {
               Nome:
             </label>
           </div> 
-          <input type='text' placeholder="Insira seu nome" name="name" autoComplete={false} autoCorrect={false}/>
+          <input type='text' placeholder="insira seu nome" name="name" autoComplete={false} autoCorrect={false} style={{textTransform: 'capitalize'}}/>
         </div>
         <div className="input-container">
           <div className='title'>
             E-mail:
           </div> 
-          <input type='email' />
+          <input type='email' style={{textTransform: 'lowercase'}}  placeholder='Insira seu e-mail'/>
         </div>
         <div className="input-container">
           <div className='title'>
             Telefone:
           </div> 
-          <input type='number' />
+          <input type='number' placeholder='insira seu número de telefone.'/>
         </div>
         <div style={{
           display: 'flex', 
