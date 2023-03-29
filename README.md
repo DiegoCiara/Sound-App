@@ -1,16 +1,5 @@
-Anotações:
-Fazer NavBar com efeito de opacidade igual do portfólio
 
-
-
-
-
-
-
-
-
-
-
+<img src='./src/public/landing-page.png'/>
 
 
 
