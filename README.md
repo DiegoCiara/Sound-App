@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 <img src='./src/public/landing-page.png'/>
 
@@ -5,6 +6,8 @@
 
 
 
+=======
+>>>>>>> 06417d69470287cb64d8aefc7265c67f1e9835b3
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
