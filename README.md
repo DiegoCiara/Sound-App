@@ -1,13 +1,9 @@
-<<<<<<< HEAD
-
-<img src='./src/public/landing-page.png'/>
-
-
+# Landing Page para plataformas de streaming feita com React
+<img src='./public/landing-page.png'/>
+<a href='https://sound-app-two.vercel.app/'>Preview -></a>
 
 
 
-=======
->>>>>>> 06417d69470287cb64d8aefc7265c67f1e9835b3
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
