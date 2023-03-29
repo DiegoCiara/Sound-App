@@ -13,9 +13,11 @@ export  function ContactCapture() {
       <div className="contact-capture">
         <div className="input-container">
           <div className='title'>
-            Nome:
+            <label htmlFor='name'>
+              Nome:
+            </label>
           </div> 
-          <input type='text' />
+          <input type='text' placeholder="Insira seu nome" name="name" autoComplete={false} autoCorrect={false}/>
         </div>
         <div className="input-container">
           <div className='title'>
