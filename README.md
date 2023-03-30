@@ -1,8 +1,16 @@
-# Landing Page para plataformas de streaming feita com React
+<div align="center">
+  
+  
+# Landing Page
+  
+  
+### Landing Page para plataformas de streaming feita com React
+  
+### https://sound-app-two.vercel.app/
+  
 <img src='./public/landing-page.png'/>
-<a href='https://sound-app-two.vercel.app/'>Preview -></a>
 
-
+</div>
 
 # Getting Started with Create React App
 
