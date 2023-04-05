@@ -1,7 +1,7 @@
 <div align="center">
   
   
-# Landing Page
+# Sound App
   
   
 ### Landing Page para plataformas de streaming feita com React
